@@ -550,6 +550,7 @@ dd {
 	font-size: 10pt;
 	margin: 0px;
 	opacity: .60;
+	padding-left: 20px;
 }
 
 .left-resume {
@@ -646,6 +647,10 @@ dd {
 	visibility: hidden;
 }
 
+dd {
+	padding-left: 20px;
+}
+
 @media screen and (max-width: 730px) {
 
 .section-three-left {
@@ -661,7 +666,7 @@ dl {
 
 dd {
 	margin-left: 20px;
-	marign: 20px;
+	margin: 20px;
 }	
 
 

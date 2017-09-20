@@ -706,6 +706,112 @@ dd {
 }
 
 
+@media screen and (max-width: 375px) {
+
+body{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+dd {
+	opacity: .60;
+}
+
+p.sub-headings {
+	text-align: center;
+    font-size: 10pt;
+    margin-bottom: 5px;
+    margin-right: 140px;
+    padding-left: 10px;
+}
+
+header{
+	width: 100%;
+}
+.navigation {
+	flex-direction: row;
+    padding-left: 105px;
+    font-size: 10pt;
+    margin-bottom: 4px;
+} 
+
+.circle-graph-area {
+	margin-left: 0px;
+	width: 100%;
+}
+
+.circle-graph {
+	width: 100%;
+	margin-left: 0px;
+}
+
+.bar-graph-area {
+	margin-right: 0px;
+	width: 100%;
+}
+
+.graph-graph {
+	margin-right: 0px;
+	width: 100%;
+}
+
+.up-button {
+	height: 30px;
+	width: 30px;
+}
+
+.section-two-bottom {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    width: 90%;
+}
+
+p.section-two {
+	display: inline-block;
+	width: 30%;
+}
+
+h3 {
+	text-align: left;
+}
+
+.position-line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 33px;
+}
+
+.section-two-right {
+	display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.left-section-two {
+	display: flex;
+    justify-content: flex-start;
+    margin-top: -5px;
+    padding-left: 10px;
+ }
+
+.links-links {
+	padding-right: 45px;
+}
+
+.fa-hidden {
+	visibility: visible;
+	padding-left: 15px;
+}
+
+.link-links {
+    padding-right: 45px;
+    width: 74%;
+
+}
+
 @media screen and (max-width: 325px) {
 
 body{
@@ -807,6 +913,5 @@ h3 {
     width: 74%;
 
 }
-
 
 

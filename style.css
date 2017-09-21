@@ -52,6 +52,7 @@ button{
 	font-size: 10pt;
 	margin-bottom: 4px;
 }
+
 li {
 	background-color: #4b5668;
 	color: #FFFFFF;
@@ -65,7 +66,6 @@ li:hover {
 	opacity: 1;
 	background-color: #384152;
 	
-
 }
 
 hr.nav-border {
@@ -96,7 +96,7 @@ p.sub-headings {
 /*//section two//*/
 /*//search area//*/
 main {
-	width: 100%;
+	width: 100%;	
 }
 
 .section-two {
@@ -112,8 +112,7 @@ input.search{
 	font-size: 20px;
 	height: 50px;
 	width: 100%;
-	z-index: -10
-	 
+	z-index: -10	 
 }
 
 .section-two-top {
@@ -147,8 +146,7 @@ input.search{
 .search-top:hover {
 	background: #4B8BCC;
 	color: white;
-	opacity: 1;
-	
+	opacity: 1;	
 }
 
 .fa-user-plus:hover .fa-user-plus {
@@ -168,6 +166,7 @@ h3 {
 	margin-left: 35px;
 	opacity: .60;
 }
+
 .search-middle-open {
 	background-color: transparent;
 	border: 1px solid black;
@@ -194,12 +193,10 @@ h3 {
 
 .search-middle:hover {
 	opacity: .90;
-
 }
 
 .fa-bookmark {
   font-size: 15px !important;
-
 }
 
 .fa-bookmark:hover {
@@ -221,7 +218,6 @@ h3 {
 .fa-circe {
   font-size: 10px !important;
   margin-right: 5px;
-
 }
 
 .fa-pencil {
@@ -250,8 +246,7 @@ h3 {
 .left-section-two {
 	display: flex;
     justify-content: flex-start;
-    margin-top: -5px;
-    
+    margin-top: -5px;   
 }
 
 .fa-map-marker {
@@ -299,17 +294,17 @@ p.section-two:hover {
 .divider-section-three {
 	margin-bottom: 0px;
 	margin-top: 0px;
-     
-
 }
 
 /*/section-three/*/
+
 .section-three {
 	background-color: #ecf1f5;
 	display: flex;
 }
 
 /*//graph-picture-area/*/
+
 .circle-graph {
 	height: 135px;
     margin-left: 25px;
@@ -351,7 +346,6 @@ p.section-two:hover {
     margin-top: 30px;
 	opacity: .50;
 	width: 175px;
-
 }
 
 .graph-button-right {
@@ -389,9 +383,7 @@ p.section-two:hover {
 	border-radius: 50%;
 	height: 35px;
 	opacity: .60;
-	width: 35px;
-	
-	
+	width: 35px;	
 }
 
 .section-three-break {
@@ -415,12 +407,11 @@ img.captain-idiot {
 }
 
 /*/bottom-section-left/*/
+
 .section-three-bottom {
 	background-color: #ecf1f5;
 	display: flex;
 	justify-content: space-between;
-	
-
 }
 
 .section-three-left {
@@ -528,7 +519,6 @@ i.edit-icon {
 
 .section-three-resume {
 	width: 100px;
-
 }
 
 .section-three-right-resume {
@@ -620,9 +610,7 @@ dd {
 .section-three {
 	flex-direction: column;
     align-items: center;
-
 }
-
 
 .section-three-bottom {
 	flex-direction: column;
@@ -651,10 +639,15 @@ dd {
 	padding-left: 20px;
 }
 
+}
+
 @media screen and (max-width: 768px) {
-	.link-links {
+
+.link-links {
 		padding-right: 73px;
-	}
+}
+
+}
 
 @media screen and (max-width: 730px) {
 
@@ -665,6 +658,7 @@ dd {
 dl {
 	margin-left: 20px;
 }
+
 .section-three-right {
 	width: 86%;
 }
@@ -674,42 +668,43 @@ dd {
 	margin: 20px;
 }	
 
+}
 
 @media (max-width: 600px) {
 
-	body {
-		display: block;
-	}
+body {
+	display: block;
+}
 
-	header {
-		width: 100%;
-	}
+header {
+	width: 100%;
+}
 
-	.navigation {
-		display: none;
-	}
+.navigation {
+	display: none;
+}
 
-	p.sub-headings {
+p.sub-headings {
     margin-bottom: 18px;
-    }
+}
 
-    hr.nav-border {
+hr.nav-border {
     margin-bottom: 0;
-	}
+}
 
-	dd {
+dd {
 	margin-left: 0px;
 	opacity: .60;
-}	
-	dt {
+}
+
+dt {
 	margin-left: 0px;
 }
 
-	.section-three-bottom {
-		padding: 30px;
+.section-three-bottom {
+	padding: 30px;
 	}
 }
-
 
 @media screen and (max-width: 375px) {
 
@@ -733,6 +728,7 @@ p.sub-headings {
 header{
 	width: 100%;
 }
+
 .navigation {
 	flex-direction: row;
     padding-left: 105px;
@@ -814,6 +810,8 @@ h3 {
 .link-links {
     padding-right: 45px;
     width: 74%;
+
+}
 
 }
 
